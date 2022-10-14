@@ -5,40 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik">
     <title>Admin dashboard</title>
 </head>
 <body>
     <div class="container">
         <div class="dashboard">
-            <div class="logo"></div>
+            <div class="logo">
+                <div class="dash-logo"><img src="./images/monitor-dashboard (1).svg" style="width: 70px; height:70px; fill: white;" alt=""></div>
+                <div class="dash-text">Dashboard</div>
+            </div>
             <div class="options">
-                <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
-                </ul>
+                <img class = "option-img"src="./images/home-account (2).svg"  alt="">
+                <div class="option-text">Home</div>
+                           
+                <img class = "option-img" src="./images/account-box.svg"  alt="">
+                <div class="option-text"> Profile</div>
+            
+                <img class = "option-img" src="./images/message-settings.svg"  alt="">
+                <div class="option-text"> Messages</div>
+                
+            
+                <img class = "option-img" src="./images/clipboard-text-clock.svg"  alt="">
+                <div class="option-text"> History</div>
+           
+                <img class = "option-img" src="./images/file-tree.svg"  alt="">
+                <div class="option-text"> Tasks</div>
+           
+                <img class = "option-img" src="./images/account-group.svg"  alt="">
+                <div class="option-text"> Communities</div>
+
             </div>
             <div class="settings">
-                <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
-                </ul>
+                <img class = "option-img" src="./images/account-cog.svg"  alt="">
+                <div class="option-text"> Settings</div>
+           
+                <img class = "option-img" src="./images/face-agent.svg"  alt="">
+                <div class="option-text"> Support</div>
+           
+                <img class = "option-img" src="./images/safe-square.svg"  alt="">
+                <div class="option-text"> Privacy</div>
             </div>
         </div>
 
-        <div class="nav">
-            <!-- <div class="top-nav">
-                <img src="" alt="" class="search-icon">
-                <input type="text" name="search-bar" class="search-bar">
-                <img src="" alt="" class="notification-icon">
-                <img src="" alt="" class="profile-pic">
-                <div class="nav-user">Morgan Oakley</div>
-            </div> -->
-        </div>
+        <header class="nav">
+                <div class="top-nav-column1">
+                    <img src="./images/database-search.svg" alt="" class="search-icon">
+                    <input type="text" name="search-bar" class="search-bar">
+                </div>
+                
+                <div class="top-nav-column2">
+                    <img src="./images/bell-badge.svg" alt="" class="notification-icon">
+                    <img src="./images/photo_2022-10-14_17-28-23.jpg" alt="" class="profile-pic">
+                    <div class="nav-user">Ashley Willis</div>
+                </div>
+
+                <div class="bottom-nav-column1">
+                    <img src="./images/photo_2022-10-14_17-28-23.jpg" alt="" class="profile-pic">
+                    <div class="nav-user-message">Welcome to your project dashboard, <div class="user-name">Ashley Willis </div></div>
+                   
+                </div>
+                
+                <div class="bottom-nav-column2">
+                    <button class="bottom-btn"> New </button>
+                    <button class="bottom-btn"> Upload</button>
+                    <button class="bottom-btn"> Share </button>
+                </div>
+                
+                
+            
+        </header>
         
         <div class="board-container">
             <div class="projects-board">
